@@ -16,7 +16,7 @@ EXTENSION SAVE_FILES_IN_RUBBER_DUCKY_STORAGE_WINDOWS
             Set #FLAG_SINGLE_FILE with TRUE if you want to save just one file.
             In this case you will need to specify the file path within the #SINGLE_PATH variable OR, in case the exact path to the file you can only acquire it at runtime and so via the powershell, use in the powershell the $fileToSavePath variable to capture this path.
                 i.e. in DuckyScript EXTENSION
-                    DEFINE #SINGLE_PATH C:\Users\Aleff\Downloads\photo.png
+                     #SINGLE_PATH C:\Users\Aleff\Downloads\photo.png
                 i.e. in PowerShell before extension
                     $fileToSavePath = "C:\Users\Aleff\Downloads\photo.png"
 
